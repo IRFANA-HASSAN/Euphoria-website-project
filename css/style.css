@@ -130,33 +130,32 @@ header .wrapper .left {
 }
 header .wrapper .left h1 { 
 	font-size: 200px;
-	margin-right: 100px;
 }
 header .wrapper .left h1 a { 
 	display: block;
 }
 header .wrapper .left h1 a img {
 	display: block;
-	width: 150%
+	width: 100%
 }
 header .wrapper .left form{
     display: none;
 }
 header .wrapper .left ul { 
 	display: flex;
-    margin-top: 18px;
+    margin-top: 15px;
+    margin-left: 100px;
 }
 header .wrapper .left ul li { 
 	margin-right: 60px;	
-    margin-top: 8px;
 }
 header .wrapper .left ul li:last-child{
 	margin-right: 0;
 }
 header .wrapper .left ul li a { 
-	color: #525252d3;
+	color: #807D7E;
 	font-size: 22px;
-	font-weight: 600;
+	font-weight: 500;
 	display: inline-block;
 }
 header .wrapper .left ul li a:hover{
@@ -198,7 +197,7 @@ header nav ul li a.button{
 	border-radius: 4px;
 }
 header nav ul li a.search{
-	background: #9c9c9c48;
+    background: #F6F6F6;
     padding: 12px 255px 12px 8px;
 	border-radius: 4px;
 }
@@ -214,8 +213,8 @@ header nav ul li a.search img{
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
 }
 #spotlight .left { 
 
@@ -224,11 +223,12 @@ header nav ul li a.search img{
 
 }
 #spotlight .left a img { 
-
+    margin-left: 40px;
+    margin-top: 283px;
 }
 #spotlight .middle { 
     color: #fff;
-    margin-left: -20%;
+    margin-left: 193px;
 }
 #spotlight .middle h2 { 
     font-size: 38px;
@@ -240,8 +240,9 @@ header nav ul li a.search img{
     width: 60%;
 }
 #spotlight .middle .button { 
-    font-size: 18px;
-    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3C4242;
     background: #fff;
     padding: 2% 8%;
     border-radius: 4px;
@@ -251,7 +252,7 @@ header nav ul li a.search img{
 #spotlight .right a { 
 }
 #spotlight .right a img { 
-    margin-top: 55px;
+    margin-top: 283px;
 }
 
 
@@ -266,16 +267,17 @@ header nav ul li a.search img{
 #explore .left { 
     background-image: url(../images/jpg/bg-2.jpg);
     background-size: 160%;
-    width: 30%;
-    height: 38vh;
+    width: 604.93px;
+    height: 356.2px;
     padding: 4% 3%;
     background-repeat: no-repeat;
     border-radius: 8px;
-    box-shadow: 0 12px 12px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 10px 0px #00000066;
     color: #fff;
 }
 #explore .left h3 { 
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 800;
     margin-bottom: 6%;
 }
 #explore .left h2 { 
@@ -299,8 +301,8 @@ header nav ul li a.search img{
 #explore .right { 
     background-image: url(../images/jpg/bg-3.jpg);
     background-size: 130%;
-    width: 30%;
-    height: 38vh;
+    width: 604.93px;
+    height: 355.84px;
     padding: 3% 3%;
     background-repeat: no-repeat;
     border-radius: 8px;
@@ -309,7 +311,8 @@ header nav ul li a.search img{
     margin-left: 3%;
 }
 #explore .right h3 {
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 800;
     margin-bottom: 4%;
 }
 #explore .right h2 { 
@@ -370,7 +373,9 @@ header nav ul li a.search img{
     margin-bottom: 8%;
 }
 #new .items .item a h6 { 
-    font-size: 18px;
+    color: #3C4242;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 
@@ -386,8 +391,8 @@ header nav ul li a.search img{
     background-image: url(../images/jpg/bg-4.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 40%;
-    height: 60vh;
+    width: 614px;
+    height: 639.72px;
     padding: 3% 3%;
     border-radius: 4px;
 }
@@ -415,8 +420,8 @@ header nav ul li a.search img{
     background-image: url(../images/jpg/bg-5.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 40%;
-    height: 60vh;
+    width: 626px;
+    height: 639.72px;
     padding: 3% 3%;
     border-radius: 4px;
 }
@@ -431,7 +436,7 @@ header nav ul li a.search img{
 #categoriesformen .wrapper h2 { 
     font-size: 38px;
     font-weight: 600;
-    margin-left: 10%;
+    margin-left: 3%;
     margin-bottom: 3%;
     border-left: 3px solid #9056fc;
 }
@@ -439,25 +444,32 @@ header nav ul li a.search img{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 0 8%;
 }
 #categoriesformen .wrapper .items .item { 
     width: 20%;
     margin-left: 8px;
+    margin-bottom: 3%;
 }
 #categoriesformen .wrapper .items .item a { 
 
 }
 #categoriesformen .wrapper .items .item a.img img { 
-   display: block;
-   width: 100%;
-   margin-top: 8%;
-   margin-bottom: 3%;
+   width: 270.36px;
+   height: 393.26px;
+   gap: 0px;
+   border-radius: 10px 0px 0px 0px;
+   opacity: 0px;
+   margin-bottom: 4%;
 }
 #categoriesformen .wrapper .items .item:nth-child(7n) a.img img{
-    height: 41vh;
+    width: Hug (273.72px)px;
+    height: Hug (449.68px)px;
+    gap: 13.41px;
+    opacity: 0px;
+
 } 
 #categoriesformen .wrapper .items .item .list { 
+    margin-right: 150px;
 }
 #categoriesformen .wrapper .items .item .list h6 { 
     font-size: 18px;
@@ -465,9 +477,14 @@ header nav ul li a.search img{
 }
 #categoriesformen .wrapper .items .item .list small { 
     font-size: 14px;
-    margin-right: 60%;
 }
-#categoriesformen .wrapper .items .item .list a.arrow img{
+#categoriesformen .wrapper .items .item .img {
+   
+}
+#categoriesformen .wrapper .items .item .img .list .arrow{
+
+}
+#categoriesformen .wrapper .items .item .img .list .arrow img{
     display: block;
     width: 100%;
 }
@@ -480,9 +497,9 @@ header nav ul li a.search img{
 
 }
 #categoriesforwomen .wrapper h2 { 
-    font-size: 38px;
+    font-size: 34px;
     font-weight: 600;
-    margin-left: 10%;
+    margin-left: 3%;
     margin-bottom: 3%;
     border-left: 3px solid #9056fc;
 }
@@ -490,30 +507,29 @@ header nav ul li a.search img{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 0 8%;
 }
 #categoriesforwomen .wrapper .items .item { 
     width: 20%;
     margin-left: 8px;
 }
 #categoriesforwomen .wrapper .items .item .img { 
-  
+    
 }
 #categoriesforwomen .wrapper .items .item .img img { 
     display: block;
-    width: 100%;
-    margin-bottom: 3%;
+    margin-bottom: 4%;
 }
 #categoriesforwomen .wrapper .items .item .list { 
-
+    margin-right: 150px;
 }
 #categoriesforwomen .wrapper .items .item .list h6 { 
     font-size: 18px;
     font-weight: 600;
+    color: #191919;
 }
 #categoriesforwomen .wrapper .items .item .list small { 
     font-size: 14px;
-    margin-right: 60%;
+    color: #7F7F7F;
 }
 #categoriesforwomen .wrapper .items .item .arrow { 
 
@@ -548,7 +564,7 @@ header nav ul li a.search img{
     margin-bottom: 8%;
 }
 #brand .wrapper .items h5 small { 
-    color: #fffb00;
+    color: #FBD103;
 }
 #brand .wrapper .items ul { 
     display: flex;
@@ -573,8 +589,13 @@ header nav ul li a.search img{
 } 
 #brand .wrapper .items ul li:nth-child(4n) a img{
     width: 120%;
+    position: relative;
+    bottom: -8px;
 } 
-
+#brand .wrapper .items ul li:last-child a img{
+    position: relative;
+    bottom: -8px;
+} 
 
 #limelight { 
     margin-bottom: 8%;
@@ -583,12 +604,19 @@ header nav ul li a.search img{
 #limelight .wrapper { 
 
 }
+#limelight .wrapper h2 { 
+    font-size: 34px;
+    font-weight: 600;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    border-left: 3px solid #9056fc;
+}
 #limelight .wrapper .items { 
     display: flex;
     justify-content: space-around;
 }
 #limelight .wrapper .items .item { 
-
+    margin-right: 2px;
 }
 #limelight .wrapper .items .item a { 
 
@@ -611,16 +639,18 @@ header nav ul li a.search img{
 
 }
 #limelight .wrapper .items .item .about h6 { 
-    font-size: 18px;
+    color: #3C4242;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 3%;
 }
 #limelight .wrapper .items .item .about small { 
     font-size: 16px;
+    color: #807D7E;
 }
 #limelight .wrapper .items .item .price { 
     margin-left: 30%;
-    background: #a3a3a360;
+    background: #F6F6F6;
     padding: 4px 8px;
     border-radius: 4px;
 }
@@ -670,12 +700,15 @@ header nav ul li a.search img{
     width: 140%;
 }
 #feedback .wrapper .items .item h3 { 
+    color: #3C4242;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 4%;
 }
 #feedback .wrapper .items .item p { 
-
+    color: #807D7E;
+    font-size: 14px;
+    font-weight: 400;
 }
 #feedback .wrapper .items .item p br { 
 
@@ -684,7 +717,7 @@ header nav ul li a.search img{
 
 
 footer { 
-    background: #252525ea;
+    background: #3C4242;
 }
 footer .wrapper { 
 
@@ -702,14 +735,14 @@ footer .wrapper .top ul li {
 
 }
 footer .wrapper .top ul li .head { 
-    font-size: 38px;
+    font-size: 28.58px;
     color: #fff;
     margin-bottom: 12%;
 }
 footer .wrapper .top ul li h6 { 
     font-size: 18px;
     color: #fff;
-    margin-bottom: 6%;
+    margin-bottom: 16%;
 }
 footer .wrapper .top .items { 
     display: flex;
@@ -725,7 +758,8 @@ footer .wrapper .top .items .item_1 a{
 }
 footer .wrapper .top .items .item_1 a img{
         display: block;
-        width: 100%;
+        width: 37.02px;
+        height: 37.02px;
         background: #fff;
         padding: 8px;
         border-radius: 8px;
@@ -827,6 +861,19 @@ footer .wrapper .bottom .bottom h6 {
         margin-bottom: 3%;
     }
 }
+@media all and (max-width: 1280px){
+    header nav ul li a.search{
+        padding: 3px 100px 3px 6px;
+        font-size: 22px;
+        margin-top: 4%;
+    }
+    header nav ul li a.search img{
+        margin-right: 0;
+    }
+    #limelight .wrapper .items {
+        width: 80%;
+    }
+}
 @media all and (max-width: 1270px){
     #explore .left {
         width: 40%;
@@ -916,9 +963,7 @@ footer .wrapper .bottom .bottom h6 {
     }
 }
 @media all and (max-width: 1030px){
-    header nav ul li a.search{
-        padding: 8px 50px 8px 3px;
-    }
+    
     header nav ul li a.button{
         padding: 8px 10px;
     }
@@ -980,15 +1025,14 @@ footer .wrapper .bottom .bottom h6 {
         background: #9c9c9c48;
         padding: 8px 18px 8px 8px;
         border-radius: 4px;
+        margin-left: 8%;
     }
 }
 @media all and (max-width: 900px){
     header .wrapper{
         justify-content: space-between;
     }
-    header nav ul li a.search{
-        padding: 10px 180px 10px 8px;
-    }
+   
     #explore .left{
         width: 70%;
     }
@@ -1054,11 +1098,12 @@ footer .wrapper .bottom .bottom h6 {
     }
     header .wrapper .left h1 {
         margin-right: 50px;
-    } header nav ul li a.search {
-        padding: 10px 80px 10px 8px;
     }
 }
 @media all and (max-width: 640px){
+    header nav ul li a.search {
+        width: 110%;
+    }
     #spotlight {
         height: 40vh;
     }
@@ -1074,9 +1119,6 @@ footer .wrapper .bottom .bottom h6 {
 
 }
 @media all and (max-width: 610px){
-    header nav ul li a.search {
-        padding: 10px 100px 10px 8px;
-    }
     #spotlight {
         height: 50vh;
     }
@@ -1091,6 +1133,12 @@ footer .wrapper .bottom .bottom h6 {
     }
     #explore .right{
         width: 90%;
+    }
+    #categoriesformen .wrapper .items .item .list {
+        margin-right: 10px;
+    }
+    #categoriesforwomen .wrapper .items .item .list {
+        margin-right: 0px;
     }
 }
 @media all and (max-width: 550px){
@@ -1143,6 +1191,9 @@ footer .wrapper .bottom .bottom h6 {
         font-size: 28px;
         margin-top: 18px;
     }
+}
+@media all and (max-width: 480px){
+ 
 }
 @media all and (max-width: 490px){
     #spotlight {
@@ -1248,11 +1299,3 @@ footer .wrapper .bottom .bottom h6 {
         justify-content: flex-start;
     }
 }
-@media all and (max-width: px)
-@media all and (max-width: px)
-@media all and (max-width: px)
-@media all and (max-width: px)
-@media all and (max-width: px)
-@media all and (max-width: px)
-@media all and (max-width: px)
-@media all and (max-width: px)
